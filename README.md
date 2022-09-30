@@ -18,35 +18,15 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">Bloomberg IM</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Whatsapp communication template structure
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
   </p>
 </div>
 
@@ -59,7 +39,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
@@ -100,22 +79,6 @@ Use the `BLANK_README.md` to get started.
 
 
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -125,40 +88,63 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+These are the two core requiremenst in order to use this python script to compile.
+
+* Anaconda (Python 3)
+* Jupython Notebook
+
+
+### config.json
+
+This is the sample database structure I used for the input, 
+
+This contains:
+
+
+| Columns       | Description   |
+| ------------- | ------------- |
+| Date  | Indicates the date and time  |
+| FileName | Need to be generated maunally as it is all have to be unique. it is in the format of two digit number-four digit number. e.g. 13-3945  |
+| FromPhone, ToPhone, FromName, ToName | These columns need to be generated maunally as this need to link with name and personal details. More importantly, there shouldnt be any repetition between FromPhone and ToPhone & FromName and ToName |
+| Message  | This is the columns that merged with the chat.csv file  |
+| GroupName, GroupID  | It is there for the group chat, note that this template script is limited to generate one group for each run. In order to run a multiple numbers of group, make sure to change the 'multiple' in the setting and run the script again. |
+| FromEmail, ToEmail | (not in used)  |
+
+
+### chat.csv
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Functionality
+
+
   ```sh
-  npm install npm@latest -g
+  Setting
   ```
 
-### Installation
+  ```sh
+  Date Modification
+  ```
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Output
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This will be the expected output when runing the script, you would get each .eml file for each conversation taken, and it will be all collected under the .zip file you name it 'HERE'. Make sure to uncomment all the code in order to obtain output.
+  ```sh
+  zipObj = ZipFile('HERE', 'w')
+  ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<img width="592" alt="image" src="https://user-images.githubusercontent.com/61008377/193235593-b9a68a10-44f0-4b38-a15d-3361dbf7ba27.png">
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
