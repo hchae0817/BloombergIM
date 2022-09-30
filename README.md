@@ -44,6 +44,7 @@
     <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#functionality">Functionality</a></li>
     <li><a href="#output">Output</a></li>
+    <li><a herf='#contact"'>Contact</a><li>
   </ol>
 </details>
 
@@ -137,6 +138,14 @@ This will be the expected output when runing the script, you would get each _.em
 
 <img width="592" alt="image" src="https://user-images.githubusercontent.com/61008377/193235593-b9a68a10-44f0-4b38-a15d-3361dbf7ba27.png">
 
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTACT -->
+## Contact
+
+Hana Chae - hana.chae@insightfultechnology.co.uk
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
