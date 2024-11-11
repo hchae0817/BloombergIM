@@ -30,26 +30,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-      </ul>
-    </li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#functionality">Functionality</a></li>
-    <li><a href="#output">Output</a></li>
-    <li><a herf='#contact"'>Contact</a><li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
