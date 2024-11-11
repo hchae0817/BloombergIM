@@ -1,28 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-
-
 <div align="center">
-  <h3 align="center">Bloomberg IM</h3>
+  <h1 align="center">Stock Data Communication Simulation Project</h1>
 
   <p align="center">
     Whatsapp communication template structure
@@ -122,10 +99,14 @@ This will be the expected output when runing the script, you would get each _.em
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-<!-- CONTACT -->
-## Contact
+<!-- CREDITS -->
+<h2 id="credits"> :scroll: Credits</h2>
 
-Hana Chae - hana.chae@insightfultechnology.co.uk
+Hana Chae!
+
+[![GitHub Badge](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hchae0817)
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hana-chae-06a9001b8/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
